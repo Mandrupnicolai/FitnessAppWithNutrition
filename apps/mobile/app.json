@@ -1,0 +1,19 @@
+{
+  "expo": {
+    "name": "Fitness Application",
+    "slug": "fitness-application-health-nutriotion",
+    "scheme": "fitnessapp",
+    "version": "0.0.1",
+    "orientation": "portrait",
+    "platforms": ["ios", "android"],
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#0B0F14"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"]
+  }
+}
+

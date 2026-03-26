@@ -1,0 +1,14 @@
+{
+  "name": "fitness-application-health-nutriotion",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:api": "npm --prefix apps/api run dev",
+    "dev:mobile": "npm --prefix apps/mobile run dev",
+    "build": "npm --prefix apps/api run build && npm --prefix apps/mobile run build"
+  }
+}
+
